@@ -23,7 +23,7 @@ const About = () => {
         </p>
         <button
           type="button"
-          className="bg-yellow-300 motion-safe:hover:-translate-x-0.5 motion-safe:transition p-4 rounded-md align-bottom absolute bottom-0 right-40"
+          className="bg-yellow-300 motion-safe:hover:-translate-x-0.5 motion-safe:transition p-4 rounded-md align-bottom mt-4"
         >
           Download CV
         </button>
