@@ -4,6 +4,7 @@ import About from "../components/aboutme/about";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 import Hero from "../components/hero/hero";
+import Skills from "../components/skills/skills";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -20,10 +21,7 @@ const Home: NextPage = () => {
         <Hero />
       </div>
       <About />
-
-      <main className={styles.main}>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </main>
+      <Skills />
       <Footer />
     </>
   );

@@ -4,11 +4,11 @@ import Hamza from "../../assets/images/hamza.jpeg";
 
 const About = () => {
   return (
-    <div className="bg-about-background bg-no-repeat relative -top-200 h-auto flex flex-row">
-      <div className="ml-40 w-50 basis-1/4">
+    <div className="bg-about-background bg-no-repeat relative h-auto flex flex-row">
+      <div className="ml-40 basis-1/4">
         <Image src={Hamza} width="525" height="688" />
       </div>
-      <div className="mx-auto w-50 basis-1/2 ml-8">
+      <div className="mx-auto  basis-1/2 ml-8">
         <h1 className="pt-4 text-yellow-300 font-Spartan font-extrabold uppercase tracking-wide text-2xl tracking-wider">
           About me
         </h1>
