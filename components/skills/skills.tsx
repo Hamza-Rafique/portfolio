@@ -62,7 +62,7 @@ const Skills = () => {
               value={percentage}
               text={`${percentage}%`}
               styles={buildStyles({
-                // rotation: 0.25,
+                rotation: 0.25,
                 strokeLinecap: "butt",
                 textSize: "20px",
                 pathTransitionDuration: 0.5,
@@ -86,7 +86,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto  basis-1/2 ml-8 bg-skills">
+      <div className="mx-auto basis-1/2 ml-8 bg-skills">
         <Image src={Skill} width="525" height="688"/>
       </div>
     </div>

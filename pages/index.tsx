@@ -2,9 +2,11 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import About from "../components/aboutme/about";
 import Footer from "../components/footer/footer";
+import GetTouch from "../components/getintoch/getintoch";
 import Header from "../components/header/header";
 import Hero from "../components/hero/hero";
 import Skills from "../components/skills/skills";
+import Works from "../components/works/works";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -22,6 +24,8 @@ const Home: NextPage = () => {
       </div>
       <About />
       <Skills />
+      <Works />
+      <GetTouch />
       <Footer />
     </>
   );

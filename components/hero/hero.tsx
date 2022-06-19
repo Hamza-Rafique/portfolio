@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="p-8 pt-40 pb-40 ">
+    <div className="p-8 pt-40 pb-40">
       <div className="py-2 md:py-4 ml-20">
         <h1 className=" decoration-white uppercase tracking-wide text-5xl tracking-wider text-yellow-300  font-Spartan font-extrabold">
           Hamza Rafique

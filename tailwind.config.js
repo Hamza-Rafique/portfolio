@@ -10,7 +10,8 @@ module.exports = {
       'home-background': "url('../assets/images/headerhomebg.png')",
       'about-background':"url('../assets/images/sectionaboutmebg.png')",
       'hamza':"url('../assets/images/hamza.jpeg')",
-      'skills':"url('../assets/images/skillsbg.png')"
+      'skills':"url('../assets/images/skillsbg.png')",
+      'getintoch':"url('../assets/images/getinTouchbg.png')"
     },
     extend: {},
   },
